@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -36,4 +34,3 @@ def formingMagicSquare(s):
         if cost < min_cost:
             min_cost = cost
     return min_cost
-            
